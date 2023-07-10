@@ -2,7 +2,7 @@ import React from 'react';
 
 function FeaturesBlocks() {
   return (
-    <section>
+    <section id="0" >
       <div className="max-w-6xl mx-auto px-4 sm:px-6">
         <div className="py-12 md:py-20">
 

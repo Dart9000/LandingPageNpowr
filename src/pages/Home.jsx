@@ -20,9 +20,8 @@ function Home() {
       <main className="grow">
         {/*  Page illustration */}
         <div className="relative max-w-6xl mx-auto h-0 pointer-events-none" aria-hidden="true">
-          <PageIllustration />
+          <PageIllustration />          
         </div>
-
         {/*  Page sections */}
         <HeroHome />
         <FeaturesBlocks />
