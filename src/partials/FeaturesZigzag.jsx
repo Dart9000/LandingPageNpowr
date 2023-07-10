@@ -12,12 +12,12 @@ function FeaturesZigzag() {
           {/* Section header */}
           <div className="max-w-3xl mx-auto text-center pb-12 md:pb-16">
             <div className="inline-flex text-sm font-semibold py-1 px-3 m-2 text-green-600 bg-green-200 rounded-full mb-4">
-            Solutions we want to provide
+              Solutions we want to provide
             </div>
             <h1 className="h2 mb-4">One product, Ultimate solutions</h1>
             <p className="text-xl text-gray-400">
-            Driving Social
-              Impact, Empowering Students, and Elevating Hiring Excellence
+              Driving Social Impact, Empowering Students, and Elevating Hiring
+              Excellence
             </p>
           </div>
 
@@ -45,7 +45,7 @@ function FeaturesZigzag() {
               >
                 <div className="md:pr-4 lg:pr-12 xl:pr-16">
                   <div className="font-architects-daughter text-xl text-purple-600 mb-2">
-                  Faster.Better
+                    Faster.Better
                   </div>
                   <h3 className="h3 mb-3">For Students</h3>
                   <p className="text-xl text-gray-400 mb-4">
@@ -125,7 +125,7 @@ function FeaturesZigzag() {
               >
                 <div className="md:pl-4 lg:pl-12 xl:pl-16">
                   <div className="font-architects-daughter text-xl text-purple-600 mb-2">
-                  Faster.Better
+                    Faster.Better
                   </div>
                   <h3 className="h3 mb-3">For NGOs </h3>
                   <p className="text-xl text-gray-400 mb-4">
@@ -209,7 +209,7 @@ function FeaturesZigzag() {
               >
                 <div className="md:pr-4 lg:pr-12 xl:pr-16">
                   <div className="font-architects-daughter text-xl text-purple-600 mb-2">
-                 Faster.Better
+                    Faster.Better
                   </div>
                   <h3 className="h3 mb-3">For Hiring Companies</h3>
                   <p className="text-xl text-gray-400 mb-4">
