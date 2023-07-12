@@ -22,7 +22,7 @@ function Footer() {
                   </svg>
                 </Link>
               </div>
-              <div className="text-gray-400">
+              <div className="text-gray-400 text-center">
                 Npowr focuses on addressing critical social challenges by
                 connecting students with NGOs working on various causes such as
                 education, healthcare, environmental sustainability, poverty

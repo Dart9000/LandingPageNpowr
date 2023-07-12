@@ -14,7 +14,7 @@ function FeaturesZigzag() {
             <div className="inline-flex text-sm font-semibold py-1 px-3 m-2 text-green-600 bg-green-200 rounded-full mb-4">
               Solutions we want to provide
             </div>
-            <h1 className="h2 mb-4">One product, Ultimate solutions</h1>
+            <h1 className="h2 mb-4">One product, Ultimate benefits</h1>
             <p className="text-xl text-gray-400">
               Driving Social Impact, Empowering Students, and Elevating Hiring
               Excellence
@@ -31,10 +31,8 @@ function FeaturesZigzag() {
                 data-aos="fade-up"
               >
                 <img
-                  className="max-w-full mx-auto md:max-w-none h-auto"
+                  className="max-w-xl mx-auto w-full h-30  md:max-w-none  rounded-3xl"
                   src={FeatImage01}
-                  width="540"
-                  height="405"
                   alt="Features 01"
                 />
               </div>
@@ -48,15 +46,6 @@ function FeaturesZigzag() {
                     Faster.Better
                   </div>
                   <h3 className="h3 mb-3">For Students</h3>
-                  <p className="text-xl text-gray-400 mb-4">
-                    Npowr provides students with volunteering opportunities
-                    aligned with their interests, helping them make a social
-                    impact. The platform captures their participation and builds
-                    a profile highlighting their social impact for potential
-                    employers. Students develop soft skills through group
-                    discussions and projects. Npowr offers networking
-                    opportunities for collaboration and career growth.
-                  </p>
                   <ul className="text-lg text-gray-400 -mb-2">
                     <li className="flex items-center mb-2">
                       <svg
@@ -98,6 +87,57 @@ function FeaturesZigzag() {
                       </svg>
                       <span>Networking Opportunities</span>
                     </li>
+                    <li className="flex items-center pt-2">
+                      <svg
+                        className="w-3 h-3 fill-current text-green-500 mr-2 shrink-0"
+                        viewBox="0 0 12 12"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path d="M10.28 2.28L3.989 8.575 1.695 6.28A1 1 0 00.28 7.695l3 3a1 1 0 001.414 0l7-7A1 1 0 0010.28 2.28z" />
+                      </svg>
+                      <span>
+                        Links students to volunteering aligned with their
+                        interests, to make a social impact.
+                      </span>
+                    </li>
+                    <li className="flex items-center pt-2 ">
+                      <svg
+                        className="w-3 h-3 fill-current text-green-500 mr-2 shrink-0"
+                        viewBox="0 0 12 12"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path d="M10.28 2.28L3.989 8.575 1.695 6.28A1 1 0 00.28 7.695l3 3a1 1 0 001.414 0l7-7A1 1 0 0010.28 2.28z" />
+                      </svg>
+                      <span>
+                        Records participation and builds a profile highlighting
+                        social impact for employers.
+                      </span>
+                    </li>
+                    <li className="flex items-center pt-2">
+                      <svg
+                        className="w-3 h-3 fill-current text-green-500 mr-2 shrink-0"
+                        viewBox="0 0 12 12"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path d="M10.28 2.28L3.989 8.575 1.695 6.28A1 1 0 00.28 7.695l3 3a1 1 0 001.414 0l7-7A1 1 0 0010.28 2.28z" />
+                      </svg>
+                      <span>
+                        Students develop soft skills via group discussions and
+                        projects.
+                      </span>
+                    </li>
+                    <li className="flex items-center pt-2 ">
+                      <svg
+                        className="w-3 h-3 fill-current text-green-500 mr-2 shrink-0"
+                        viewBox="0 0 12 12"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path d="M10.28 2.28L3.989 8.575 1.695 6.28A1 1 0 00.28 7.695l3 3a1 1 0 001.414 0l7-7A1 1 0 0010.28 2.28z" />
+                      </svg>
+                      <span>
+                        offers networking for collaboration and career growth.
+                      </span>
+                    </li>
                   </ul>
                 </div>
               </div>
@@ -111,10 +151,8 @@ function FeaturesZigzag() {
                 data-aos="fade-up"
               >
                 <img
-                  className="max-w-full mx-auto md:max-w-none h-auto"
+                  className="max-w-xl rounded-3xl  w-full h-30 mx-auto md:max-w-none "
                   src={FeatImage02}
-                  width="540"
-                  height="405"
                   alt="Features 02"
                 />
               </div>
@@ -128,21 +166,9 @@ function FeaturesZigzag() {
                     Faster.Better
                   </div>
                   <h3 className="h3 mb-3">For NGOs </h3>
-                  <p className="text-xl text-gray-400 mb-4">
-                    Npowr is a platform that connects NGOs with a dedicated pool
-                    of volunteers, expanding their reach and increasing
-                    engagement. It fosters collaboration and partnerships among
-                    NGOs, driving collective impact and enabling them to share
-                    resources for larger social projects. The platform also
-                    enhances the visibility of NGOs, allowing them to showcase
-                    their mission, impact, and legitimacy, attracting dedicated
-                    volunteers. Moreover, Npowr streamlines event organization,
-                    registration, and feedback processes, providing efficient
-                    management solutions for NGOs and saving them time and
-                    effort.
-                  </p>
+
                   <ul className="text-lg text-gray-400 -mb-2">
-                    <li className="flex items-center mb-2">
+                    <li className="flex items-center pb-2">
                       <svg
                         className="w-3 h-3 fill-current text-green-500 mr-2 shrink-0"
                         viewBox="0 0 12 12"
@@ -150,9 +176,12 @@ function FeaturesZigzag() {
                       >
                         <path d="M10.28 2.28L3.989 8.575 1.695 6.28A1 1 0 00.28 7.695l3 3a1 1 0 001.414 0l7-7A1 1 0 0010.28 2.28z" />
                       </svg>
-                      <span>Dedicated Pool of Volunteers</span>
+                      <span>
+                        Connects NGOs with a dedicated pool of volunteers, for
+                        better reach and engagement.
+                      </span>
                     </li>
-                    <li className="flex items-center mb-2">
+                    <li className="flex items-center pb-2">
                       <svg
                         className="w-3 h-3 fill-current text-green-500 mr-2 shrink-0"
                         viewBox="0 0 12 12"
@@ -160,9 +189,12 @@ function FeaturesZigzag() {
                       >
                         <path d="M10.28 2.28L3.989 8.575 1.695 6.28A1 1 0 00.28 7.695l3 3a1 1 0 001.414 0l7-7A1 1 0 0010.28 2.28z" />
                       </svg>
-                      <span>Increased Visibility</span>
+                      <span>
+                        Fosters collaboration/partnerships among NGOs, enabling
+                        them to share resources for larger social projects.
+                      </span>
                     </li>
-                    <li className="flex items-center mb-2">
+                    <li className="flex items-center pb-2">
                       <svg
                         className="w-3 h-3 fill-current text-green-500 mr-2 shrink-0"
                         viewBox="0 0 12 12"
@@ -170,9 +202,12 @@ function FeaturesZigzag() {
                       >
                         <path d="M10.28 2.28L3.989 8.575 1.695 6.28A1 1 0 00.28 7.695l3 3a1 1 0 001.414 0l7-7A1 1 0 0010.28 2.28z" />
                       </svg>
-                      <span>Driving Collective Impact</span>
+                      <span>
+                        Enhances the visibility of NGOs to showcase their
+                        mission and legitimacy, attracting dedicated volunteers.
+                      </span>
                     </li>
-                    <li className="flex items-center">
+                    <li className="flex items-center ">
                       <svg
                         className="w-3 h-3 fill-current text-green-500 mr-2 shrink-0"
                         viewBox="0 0 12 12"
@@ -180,7 +215,11 @@ function FeaturesZigzag() {
                       >
                         <path d="M10.28 2.28L3.989 8.575 1.695 6.28A1 1 0 00.28 7.695l3 3a1 1 0 001.414 0l7-7A1 1 0 0010.28 2.28z" />
                       </svg>
-                      <span>Efficient Management</span>
+                      <span>
+                        Streamlines event organization, registration, and
+                        feedback processes, providing efficient management
+                        solutions for NGOs and saving them time and effort.
+                      </span>
                     </li>
                   </ul>
                 </div>
@@ -195,10 +234,8 @@ function FeaturesZigzag() {
                 data-aos="fade-up"
               >
                 <img
-                  className="max-w-full mx-auto md:max-w-none h-auto"
+                  className="max-w-xl mx-auto w-full h-30 md:max-w-none  rounded-3xl   "
                   src={FeatImage03}
-                  width="540"
-                  height="405"
                   alt="Features 03"
                 />
               </div>
@@ -212,19 +249,7 @@ function FeaturesZigzag() {
                     Faster.Better
                   </div>
                   <h3 className="h3 mb-3">For Hiring Companies</h3>
-                  <p className="text-xl text-gray-400 mb-4">
-                    Npowr is a platform that provides comprehensive candidate
-                    profiles showcasing volunteering experiences and enhanced
-                    soft skills for hiring companies. It also offers cultural
-                    fit assessment to ensure better alignment with
-                    organizational values and reduce turnover. With behavior
-                    profiles generated using AI models and feedback from NGOs
-                    and peer volunteers, companies can make informed,
-                    data-driven hiring decisions. The platform streamlines the
-                    evaluation process by providing a holistic view of
-                    candidates' social impact and well-developed soft skills,
-                    saving time and effort.
-                  </p>
+
                   <ul className="text-lg text-gray-400 -mb-2">
                     <li className="flex items-center mb-2">
                       <svg
@@ -236,16 +261,7 @@ function FeaturesZigzag() {
                       </svg>
                       <span>Comprehensive Profiles</span>
                     </li>
-                    <li className="flex items-center mb-2">
-                      <svg
-                        className="w-3 h-3 fill-current text-green-500 mr-2 shrink-0"
-                        viewBox="0 0 12 12"
-                        xmlns="http://www.w3.org/2000/svg"
-                      >
-                        <path d="M10.28 2.28L3.989 8.575 1.695 6.28A1 1 0 00.28 7.695l3 3a1 1 0 001.414 0l7-7A1 1 0 0010.28 2.28z" />
-                      </svg>
-                      <span>Efficient Candidate Evaluation</span>
-                    </li>
+
                     <li className="flex items-center mb-2">
                       <svg
                         className="w-3 h-3 fill-current text-green-500 mr-2 shrink-0"
@@ -265,6 +281,46 @@ function FeaturesZigzag() {
                         <path d="M10.28 2.28L3.989 8.575 1.695 6.28A1 1 0 00.28 7.695l3 3a1 1 0 001.414 0l7-7A1 1 0 0010.28 2.28z" />
                       </svg>
                       <span>Networking Opportunities</span>
+                    </li>
+                    <li className="flex items-center pt-2">
+                      <svg
+                        className="w-3 h-3 fill-current text-green-500 mr-2 shrink-0"
+                        viewBox="0 0 12 12"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path d="M10.28 2.28L3.989 8.575 1.695 6.28A1 1 0 00.28 7.695l3 3a1 1 0 001.414 0l7-7A1 1 0 0010.28 2.28z" />
+                      </svg>
+                      <span>
+                        Provides comprehensive candidate profiles showcasing
+                        enhanced soft skills for hiring companies.
+                      </span>
+                    </li>
+                    <li className="flex items-center pt-2">
+                      <svg
+                        className="w-3 h-3 fill-current text-green-500 mr-2 shrink-0"
+                        viewBox="0 0 12 12"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path d="M10.28 2.28L3.989 8.575 1.695 6.28A1 1 0 00.28 7.695l3 3a1 1 0 001.414 0l7-7A1 1 0 0010.28 2.28z" />
+                      </svg>
+                      <span>
+                        Offers cultural fit assessment for better alignment with
+                        organizational values.
+                      </span>
+                    </li>
+                    <li className="flex items-center pt-2">
+                      <svg
+                        className="w-3 h-3 fill-current text-green-500 mr-2 shrink-0"
+                        viewBox="0 0 12 12"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path d="M10.28 2.28L3.989 8.575 1.695 6.28A1 1 0 00.28 7.695l3 3a1 1 0 001.414 0l7-7A1 1 0 0010.28 2.28z" />
+                      </svg>
+                      <span>
+                        Behavior profiles generated using AI models and feedback
+                        from NGOs and peer volunteers, companies can make
+                        data-driven hiring decisions.
+                      </span>
                     </li>
                   </ul>
                 </div>
